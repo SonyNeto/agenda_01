@@ -11,7 +11,7 @@ from agenda_1.commands.commands import exibir_agenda, criar_agenda, inserir_cont
 #Os nomes das agendas também são separados num arquivo .txt paralelo contendo uma string
 #que é interpretada no programa como uma lista e exibe ao usuário as agendas para sua escolha.
 def agenda():
-    comando = 0         #Estado "neutro" do comando(botão) a ser dado.
+    comando = 0           #Estado "neutro" do comando(botão) a ser dado.
     while comando != '6': #O último comando (6) é para Sair. Enquanto não for executado, o programa de agendas estará funcionando.
         comando = input ('Digite o número correspondente ao que desejas executar: \n'
                          '1. Exibir uma agenda existente\n'
